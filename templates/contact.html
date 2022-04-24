@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <form action = "http://localhost:5000/success" method = post>
+{{ form.name.label }}
+
+{{ form.name(class="form-control")}}
+
+
+{{ form.Address.label }}
+
+{{ form.Address(class="form-control") }}
+
+
+{{ form.email.label }}
+
+{{ form.email(class="form-control") }}
+
+{{ form.skill.label}}
+
+{{ form.skill(class="form-control") }}
+
+{{ form.submit(class="btn btn-primary") }}
+</body>
+</html>
